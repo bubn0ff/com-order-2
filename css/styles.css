@@ -1071,6 +1071,12 @@ img {
   }
 }
 
+@media screen and (max-width: 480px) and (max-width: 540px) {
+  .offer__button {
+    max-width: 100%;
+  }
+}
+
 .offer__button_buy {
   background-color: #FFEB39;
   margin-right: 29px;
@@ -2302,8 +2308,8 @@ img {
 
 @media (max-width: 768px) {
   .tooltip-map {
-    max-width: 120px;
-    padding: 7px;
+    max-width: 150px;
+    padding: 10px;
     border-radius: 7px;
   }
 }
