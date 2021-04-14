@@ -1732,8 +1732,8 @@ img {
   position: relative;
   padding: 0px 0px 58% 0px;
 
-  // .video frame
-  iframe {
+  // .video__iframe
+  &__iframe {
     width: 100%;
     height: 100%;
     position: absolute;
