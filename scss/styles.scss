@@ -517,6 +517,11 @@ img {
   color: $font-color-black2;
   padding: 287px 0px 61px 65px;
 
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* Стилизация элементов для IE10+ */
+    background: url('../img/img-header.png') top center no-repeat;
+  }
+
   @include md2 {
     padding: 220px 0px 40px 40px;
   }
@@ -1198,8 +1203,23 @@ img {
     }
 
     // .how-it__image_img
-    // &_img {
-    // }
+    &_img {
+
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* Стилизация элементов для IE10+ */
+        display: none;
+      }
+    }
+
+    // .how-it__image_ie
+    &_ie {
+      display: none;
+
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* Стилизация элементов для IE10+ */
+        display: block;
+      }
+    }
   }
   // .how-it__text
   &__text {
@@ -1787,8 +1807,21 @@ img {
   }
 
   // .map__img
-  // &__img {
-  // }
+  &__img {
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      /* Стилизация элементов для IE10+ */
+      display: none;
+    }
+
+    &_ie {
+      display: none;
+
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* Стилизация элементов для IE10+ */
+        display: block;
+      }
+    }
+  }
 
   // .map__geolocation
   &__geolocation {
