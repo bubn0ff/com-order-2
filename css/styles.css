@@ -557,7 +557,7 @@ img {
 }
 
 .intro {
-  background: url("../img/img-header.png") top center no-repeat;
+  background: url("../img/img-header.webp") top center no-repeat;
   background-size: cover;
   color: #222222;
   padding: 287px 0px 61px 65px;
