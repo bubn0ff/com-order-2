@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(c:\Projects\com-order-2\css\normalize.css);
+@import url('..\css\normalize.css');
 *, *::before, *::after {
   margin: 0;
   padding: 0;
